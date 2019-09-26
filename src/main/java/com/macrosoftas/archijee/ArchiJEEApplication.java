@@ -50,6 +50,7 @@ public class ArchiJEEApplication implements CommandLineRunner{
 		//System.out.println("admin2017  encoder = " +encodepwd);
 		//petit mofication de test
 		//petit mofication de test
+		//petit mofication de test
 		user.setPassword("$2a$10$fE7BKQcc.tesDzaptjL8luXZB6MV5rvUJ13ub5aVYKqnoPmMqYd8m");
 		user.setActive(true);
 		//Role
