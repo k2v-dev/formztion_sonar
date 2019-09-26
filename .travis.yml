@@ -7,7 +7,6 @@ addons:
 script:
   # the following command line builds the project, runs the tests with coverage and then execute the SonarCloud analysis
   - mvn clean org.jacoco:jacoco-maven-plugin:prepare-agent install sonar:sonar -Dsonar.projectKey=k2v-dev_formztion_sonar
-<<<<<<< HEAD
   
   notifications:
   email:
@@ -15,5 +14,3 @@ script:
       - kssi.kouakou@gmail.com
     on_success: never # default: change
     on_failure: always # default: always
-=======
->>>>>>> daf9cad857d140f9bd523092cfe6911e2f63bdb5
